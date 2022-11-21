@@ -40,7 +40,7 @@ public class OSCReceiver : MonoBehaviour
                 if (transform1) transform1.position = pos;
                 break;
             case 2:
-                if (transform2) transform1.position = pos;
+                if (transform2) transform2.position = pos;
                 break;
             default:
                 break;
